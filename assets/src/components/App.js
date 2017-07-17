@@ -37,7 +37,6 @@ class App extends Component {
 
     render() {
         const {users, messages, socket} = this.props;
-        console.log(messages);
         return (
             <div className="container-fluid">
                 <div className="row">

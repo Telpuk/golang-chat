@@ -19,7 +19,6 @@ export const users = createReducer(initialUsers, {
 const initialMessages = [];
 export const messages = createReducer(initialMessages, {
     ['MESSAGE_FOR_TOTAL_CHAT'](state, {message}) {
-        console.log(message);
         state.push(message);
         return [...state];
     },
